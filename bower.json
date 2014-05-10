@@ -1,0 +1,17 @@
+{
+  "name": "App",
+  "version": "0.0.1",
+  "authors": [
+    "GHowlett <Griff.howl@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.0"
+  }
+}
