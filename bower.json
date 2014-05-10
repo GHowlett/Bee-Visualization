@@ -12,6 +12,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "jquery": "~2.0"
+    "jquery": "~2.0",
+    "d3": "~3.4.6"
   }
 }
