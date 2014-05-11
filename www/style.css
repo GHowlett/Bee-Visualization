@@ -66,6 +66,15 @@ section {
 	position: relative;
 }
 
+.timeline-header .summary {
+	margin-bottom: 0px;
+}
+.timeline-header .summary a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .ic-twitter-badge {
 	position: absolute;
 	top: 10px;
