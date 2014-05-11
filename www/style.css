@@ -20,7 +20,7 @@ section {
 }
 
 #cam {
-	bottom: 0;
+	bottom: 10%;
 	padding-top: 1%;
 }
 
@@ -77,6 +77,42 @@ section {
 	vertical-align: middle;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAAC/CAYAAACxIz21AAAZEUlEQ…XZdvDq6+Lt6IyRUlavvfZaph3EuI7OEKmlZGQ7UQYmpaz+H6dZWKTP4oN2AAAAAElFTkSuQmCC);
 	background-size: 177px 191px;
+}
+
+/* ------------------------------------------- */
+
+.header {
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 36px; 
+	font-weight: 50; 
+	display: block; 
+	z-index: 1; 
+	color: #89BCA8;
+	text-align: center;
+}
+.hint {
+	width: 1280px; 
+	right: 0px; 
+	color: rgb(153, 153, 153); 
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+.hr-style {
+   border: 0;
+   height: 2px;
+   width: 80%;
+   color: #E8E8E8;
+   background-color: #E8E8E8;
+}
+
+#story {
+	position: absolute;
+	width: 95%;
+	left: 5%;
+	top: 11.5%;
+	display: none;
 }
 
 /* ------------------------------------------- */

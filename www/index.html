@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="jquery/jquery.js"></script>
 	<script type-"text/javascript" src="flexslider/jquery.flexslider.js"></script>
 	<script type="text/javascript" src="d3/d3.js"></script>
+	<script type="text/javascript" src="http://d3js.org/d3.hexbin.v0.min.js"></script>	
 	<script type="text/javascript" src="socket.io/socket.io.js"></script>
 	<script type="text/javascript" src="prettydate.js"></script>
 </head>
@@ -19,7 +20,7 @@
 			<h1 class="summary" data-scribe="element:title">
 				<a class="customisable-highlight" href="https://twitter.com/search/?q=%23TerminalBee" title="Search for #TerminalBee on Twitter">#TerminalBee</a>
 			</h1>
-			<a class="ic-twitter-badge" href="https://twitter.com" title="Twitter"><b>Twitter</b></a>
+			<a class="ic-twitter-badge" title="Twitter"><b>Twitter</b></a>
 		</div>
 
 		<div id="tweets"></div>
@@ -34,7 +35,15 @@
 		  </ul>
 		</div>
 	</section>
-	<section id="facts"></section>
+
+	<section id="facts">
+		<div class="header">
+			Bee Activity
+			<div class="hint"></div>
+		</div>
+		<div id="chart"></div>
+		<img id="story" src="story.gif">
+	</section>
 </body>
 
 <script type="text/javascript" src="main.js"></script>
