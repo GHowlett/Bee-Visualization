@@ -4,12 +4,13 @@
 	<title>Bee Visualization</title>
 	
 	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link type="text/css" rel="stylesheet" href="flexslider/flexslider.css" />
 	
 	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type-"text/javascript" src="flexslider/jquery.flexslider.js"></script>
 	<script type="text/javascript" src="d3/d3.js"></script>
 	<script type="text/javascript" src="socket.io/socket.io.js"></script>
 	<script type="text/javascript" src="prettydate.js"></script>
-	<script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,17 @@
 		<div id="tweets"></div>
 	</section>
 
-	<section id="cam"></section>
+	<section id="cam">
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li><video loop autoplay src="cams/bee_webcam_0.mp4"> unsupported </video></li>
+		    <li><video loop autoplay src="cams/bee_webcam_1.mp4"> unsupported </video></li>
+		    <li><video loop autoplay src="cams/bee_webcam_2.mp4"> unsupported </video></li>
+		  </ul>
+		</div>
+	</section>
 	<section id="facts"></section>
 </body>
+
+<script type="text/javascript" src="main.js"></script>
 </html>

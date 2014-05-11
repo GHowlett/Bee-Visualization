@@ -69,7 +69,7 @@ section {
 .ic-twitter-badge {
 	position: absolute;
 	top: 10px;
-	right: 10px;
+	right: 30px;
 	width: 18px;
 	height: 15px;
 	background-position: -20px -161px;
@@ -77,4 +77,16 @@ section {
 	vertical-align: middle;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAAC/CAYAAACxIz21AAAZEUlEQ…XZdvDq6+Lt6IyRUlavvfZaph3EuI7OEKmlZGQ7UQYmpaz+H6dZWKTP4oN2AAAAAElFTkSuQmCC);
 	background-size: 177px 191px;
+}
+
+/* ------------------------------------------- */
+
+.flexslider {
+	width: 100%;
+	height: 100%;
+}
+
+#cam video {
+	width: 100%;
+	height: 100%;
 }

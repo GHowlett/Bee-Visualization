@@ -13,3 +13,11 @@ socket.on('tweet', function(tweet){
 
 	$('#tweets').prepend(tweetEl);
 });
+
+$('.flexslider').flexslider({
+	animation: "slide"
+});
+
+$('video').each(function(i,vid){
+	vid.play();
+});
