@@ -3,10 +3,10 @@ var http = require('http');
 var express = require('express');
 var socketIO = require('socket.io');
 var twitStream = new (require('twit'))({
-	consumer_key: 'MHA5zldY2vrNq4wq6u1ndVfJk',
-	consumer_secret: 'vNWlPX6grC1bphD7iZGC22i1veXqsNfI9Z6xt84onBT7aYOW5Y',
-	access_token: '2488844486-D7JiVnPodmEhMzz34FJuDDSOjjwgcswvmRZTTDX',
-	access_token_secret: 'MkG6696eABas1DLiUWOxxcNAI5XMxFDroPQv5xwf9QL6M'
+	consumer_key: process.env.TWIT_CONSUMER_KEY,
+	consumer_secret: process.env.TWIT_CONSUMER_SECRET,
+	access_token: process.env.TWIT_TOKEN,
+	access_token_secret: process.env.TWIT_TOKEN_SECRET
 }).stream('user');
 
 var server = express()
