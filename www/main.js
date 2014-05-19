@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost'); //TODO: change to just be root
+var socket = io.connect('/'); 
 
 socket.on('tweet', function(tweet){
 	var tweetEl = $('<div class="tweet">');
