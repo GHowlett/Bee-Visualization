@@ -26,7 +26,7 @@ $('video').each(function(i,vid){
 
 $('#facts').on('click', function(){
 	$('#story').show().attr('src', $('#story').attr('src') + '?t=' + Date.now());
-	setTimeout(function(){ $('#story').hide(); }, 9000);
+	setTimeout(function(){ $('#story').hide(); }, 25000);
 });
 
 ////////////////////////////////////////////////////////
